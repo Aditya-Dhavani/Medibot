@@ -571,31 +571,71 @@ body.light-mode .theme-toggle {
 
 /* Responsive */
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .login-page {
     grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   .hero-panel {
-    order: 2;
+    order: 2; /* hero goes below the form */
+  }
+
+  .page {
+    max-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 12px;
+    align-items: flex-start;
+  }
+
+  .login-page,
   .page {
-    padding: 16px;
+    max-width: 100%;
+    padding: 14px;
+    border-radius: 14px;
   }
 
   .main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* input card above results */
   }
 
   .header {
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: auto auto;
+    row-gap: 8px;
   }
 
   .user-info {
     text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 8px;
+  }
+
+  .theme-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    font-size: 0.9rem;
+  }
+
+  .header h1 {
+    font-size: 1.4rem;
+  }
+
+  .input-card h2,
+  .results-card h2 {
+    font-size: 1rem;
+  }
+
+  #symptoms {
+    min-height: 100px;
   }
 }
