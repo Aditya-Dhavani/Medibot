@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediBot – Your Simple Symptom Helper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme toggle (works on both pages) -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark or light mode">
+      🌙
+    </button>
+
+    <!-- Auth (signup / login) screen -->
+    <div id="login-page" class="login-page">
+      <div class="hero-panel">
+        <h1>MediBot</h1>
+        <p class="hero-tagline">
+          Check common health issues, learn self-care tips, and know when you
+          should see a real doctor.
+        </p>
+        <ul class="hero-list">
+          <li>✅ Covers 50+ common everyday conditions</li>
+          <li>✅ Simple symptom-based information</li>
+          <li>✅ Educational only – not a diagnosis</li>
+        </ul>
+      </div>
+
+      <div class="login-card">
+        <div class="auth-tabs">
+          <button id="tab-login" class="auth-tab active">Login</button>
+          <button id="tab-signup" class="auth-tab">Sign up</button>
+        </div>
+
+        <!-- LOGIN FORM -->
+        <div id="login-form" class="auth-form">
+          <h2>Welcome back 👋</h2>
+          <p class="auth-text">Use your username and password to continue.</p>
+
+          <label for="login-username">Username</label>
+          <input
+            type="text"
+            id="login-username"
+            placeholder="Your username"
+            autocomplete="username"
+          />
+
+          <label for="login-password">Password</label>
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Your password"
+            autocomplete="current-password"
+          />
+
+          <button id="loginBtn" class="primary-btn full-width">
+            Login
+          </button>
+          <p id="login-error" class="auth-error"></p>
+        </div>
+
+        <!-- SIGNUP FORM -->
+        <div id="signup-form" class="auth-form hidden">
+          <h2>Create account 🌱</h2>
+          <p class="auth-text">
+            Sign up once with your email, then use username &amp; password later.
+          </p>
+
+          <label for="signup-email">Email</label>
+          <input
+            type="email"
+            id="signup-email"
+            placeholder="you@example.com"
+            autocomplete="email"
+          />
+
+          <label for="signup-username">Username</label>
+          <input
+            type="text"
+            id="signup-username"
+            placeholder="Pick a username"
+            autocomplete="username"
+          />
+
+          <label for="signup-password">Password</label>
+          <input
+            type="password"
+            id="signup-password"
+            placeholder="Create a password"
+            autocomplete="new-password"
+          />
+
+          <button id="signupBtn" class="primary-btn full-width">
+            Sign up
+          </button>
+          <p id="signup-error" class="auth-error"></p>
+          <p id="signup-success" class="auth-success"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main app after login -->
+    <div id="app-page" class="page hidden">
+      <header class="header">
+        <div class="logo-circle">🩺</div>
+        <div>
+          <h1>MediBot</h1>
+          <p class="tagline">
+            Simple symptom-based health information. Not a diagnosis or a
+            replacement for your doctor.
+          </p>
+          <p class="disclaimer">
+            ⚠️ Educational use only. Always consult a healthcare professional for
+            real medical decisions.
+          </p>
+        </div>
+        <div class="user-info">
+          <span id="welcome-text"></span>
+          <button id="logoutBtn" class="secondary-btn small-btn">Logout</button>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="card input-card">
+          <h2>Describe your symptoms</h2>
+          <p class="hint">
+            Example:
+            <em>
+              “I have a runny nose, sneezing and a mild cough since
+              yesterday.”
+            </em>
+          </p>
+          <textarea
+            id="symptoms"
+            placeholder="Type your symptoms here..."
+          ></textarea>
+          <div class="btn-row">
+            <button id="checkBtn" class="primary-btn">Ask MediBot</button>
+            <button id="clearBtn" class="secondary-btn">Clear</button>
+          </div>
+        </section>
+
+        <section class="card results-card">
+          <h2>Possible matches</h2>
+          <div id="results" class="results-area">
+            <p class="empty-text">
+              Your results will appear here after you ask MediBot.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          This project is for learning and education only. It cannot replace real
+          medical consultation.
+        </p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
