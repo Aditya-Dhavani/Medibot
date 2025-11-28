@@ -1,0 +1,373 @@
+[
+  {
+    "name": "Common Cold",
+    "keywords": ["runny nose", "sneezing", "sore throat", "blocked nose", "mild cough"],
+    "description": "A mild viral infection causing sneezing, sore throat and runny nose.",
+    "medication": "OTC cold medicines if needed. Avoid antibiotics unless prescribed.",
+    "care": "Rest, warm fluids, steam inhalation."
+  },
+  {
+    "name": "Flu (Influenza)",
+    "keywords": ["fever", "body pain", "fatigue", "weakness", "dry cough"],
+    "description": "Flu is a viral infection affecting the respiratory system.",
+    "medication": "Fever reducers only if needed. Avoid self-antibiotics.",
+    "care": "Hydration, rest, monitor symptoms."
+  },
+  {
+    "name": "Migraine",
+    "keywords": ["headache", "throbbing", "one sided headache", "light sensitivity"],
+    "description": "A strong headache with sensitivity to light and sound.",
+    "medication": "Pain relievers for mild attacks. Doctor-required for frequent episodes.",
+    "care": "Rest in a dark quiet room."
+  },
+  {
+    "name": "Tension Headache",
+    "keywords": ["mild headache", "stress headache", "tight band around head"],
+    "description": "A common headache caused by stress or long screen time.",
+    "medication": "Occasional pain relievers.",
+    "care": "Relaxation, proper posture, hydration."
+  },
+  {
+    "name": "Sinusitis",
+    "keywords": ["facial pain", "pressure around eyes", "blocked nose", "thick mucus"],
+    "description": "Inflamed sinuses causing pressure and nasal blockage.",
+    "medication": "Nasal sprays and doctor-advised medicines.",
+    "care": "Steam inhalation, warm compress."
+  },
+  {
+    "name": "Allergic Rhinitis",
+    "keywords": ["sneezing", "itchy nose", "watery eyes", "dust allergy"],
+    "description": "Nasal allergy triggered by dust, pollen or pollution.",
+    "medication": "Antihistamines if advised.",
+    "care": "Avoid triggers, keep surroundings clean."
+  },
+  {
+    "name": "Acute Bronchitis",
+    "keywords": ["cough", "chest congestion", "mucus", "wheezing"],
+    "description": "Temporary inflammation of airways causing cough.",
+    "medication": "Cough syrups if required. Avoid antibiotics without advice.",
+    "care": "Warm fluids, avoid smoke."
+  },
+  {
+    "name": "Asthma (Mild)",
+    "keywords": ["wheezing", "breathlessness", "chest tightness", "asthma"],
+    "description": "Chronic condition causing breathing difficulty.",
+    "medication": "Use doctor-prescribed inhalers.",
+    "care": "Avoid dust, smoke and triggers."
+  },
+  {
+    "name": "Pneumonia (Mild Early Signs)",
+    "keywords": ["chest pain", "wet cough", "fever", "shaking chills"],
+    "description": "Lung infection causing fever, cough and breathing difficulty.",
+    "medication": "Needs medical diagnosis. Do NOT self-medicate.",
+    "care": "Seek medical evaluation promptly."
+  },
+  {
+    "name": "Gastritis",
+    "keywords": ["upper stomach pain", "burning stomach", "acidity"],
+    "description": "Inflammation of the stomach lining.",
+    "medication": "Antacids or acid reducers if advised.",
+    "care": "Avoid spicy/oily food."
+  },
+  {
+    "name": "Acid Reflux / GERD",
+    "keywords": ["heartburn", "acid in throat", "burping"],
+    "description": "Stomach acid flowing back into the esophagus.",
+    "medication": "Acid reducers after doctor advice.",
+    "care": "Eat small meals, avoid lying down after food."
+  },
+  {
+    "name": "Indigestion",
+    "keywords": ["bloating", "gas", "feel full quickly", "discomfort after meals"],
+    "description": "Difficulty digesting food causing upper abdominal discomfort.",
+    "medication": "Enzymes or antacids sometimes used.",
+    "care": "Eat slowly, avoid heavy meals."
+  },
+  {
+    "name": "Food Poisoning",
+    "keywords": ["vomiting", "loose motion", "diarrhea", "stomach pain"],
+    "description": "Illness caused by contaminated food.",
+    "medication": "ORS is essential. Avoid self-medication.",
+    "care": "Hydration and rest."
+  },
+  {
+    "name": "Diarrhea",
+    "keywords": ["watery stools", "loose motion", "cramps"],
+    "description": "Frequent loose stools, often due to infection.",
+    "medication": "ORS. Medicines only with doctor’s advice.",
+    "care": "Hydrate well, avoid oily foods."
+  },
+  {
+    "name": "Constipation",
+    "keywords": ["hard stools", "straining", "infrequent stools"],
+    "description": "Difficulty passing stool.",
+    "medication": "Mild laxatives only if advised.",
+    "care": "Fiber-rich diet, water, exercise."
+  },
+  {
+    "name": "Irritable Bowel Syndrome (Mild)",
+    "keywords": ["bloating", "gas", "abdominal pain", "alternating stool"],
+    "description": "Digestive disorder causing pain and bowel habit changes.",
+    "medication": "Depends on symptoms.",
+    "care": "Manage stress, avoid trigger foods."
+  },
+  {
+    "name": "Appendicitis (Warning Signs)",
+    "keywords": ["right lower stomach pain", "Vomiting", "severe belly pain"],
+    "description": "Inflammation of the appendix – serious condition.",
+    "medication": "Requires urgent medical attention.",
+    "care": "Visit hospital immediately."
+  },
+  {
+    "name": "UTI",
+    "keywords": ["burning urine", "frequent urination", "lower abdomen pain"],
+    "description": "Infection of the urinary tract.",
+    "medication": "Antibiotics only if prescribed.",
+    "care": "Hydrate well."
+  },
+  {
+    "name": "Kidney Stone (Early Signs)",
+    "keywords": ["back pain", "side pain", "blood urine"],
+    "description": "Stone formation in kidneys causing pain.",
+    "medication": "Needs medical check.",
+    "care": "Drink more water."
+  },
+  {
+    "name": "Dehydration",
+    "keywords": ["dry mouth", "weakness", "dizziness"],
+    "description": "Loss of body fluids causing weakness.",
+    "medication": "ORS depending on severity.",
+    "care": "Hydrate regularly."
+  },
+  {
+    "name": "Heat Exhaustion",
+    "keywords": ["heavy sweating", "weakness", "high temperature"],
+    "description": "Body overheating due to high temperature exposure.",
+    "medication": "Cool down, ORS.",
+    "care": "Move to shade, drink water."
+  },
+  {
+    "name": "Hypoglycemia (Low Sugar Symptoms)",
+    "keywords": ["shaking", "sweating", "dizziness", "feeling faint"],
+    "description": "Low blood sugar causing weakness.",
+    "medication": "Consume sugar or glucose quickly.",
+    "care": "Eat on time."
+  },
+  {
+    "name": "Anemia (Mild Symptoms)",
+    "keywords": ["weakness", "pale skin", "tired easily"],
+    "description": "Low hemoglobin leading to fatigue.",
+    "medication": "Iron if advised.",
+    "care": "Iron-rich foods."
+  },
+  {
+    "name": "Thyroid Hypothyroidism (Symptoms)",
+    "keywords": ["tiredness", "hair fall", "weight gain", "cold intolerance"],
+    "description": "Low thyroid hormone levels.",
+    "medication": "Doctor-prescribed thyroid tablets.",
+    "care": "Regular monitoring."
+  },
+  {
+    "name": "Hyperthyroidism",
+    "keywords": ["weight loss", "fast heartbeat", "irritability"],
+    "description": "Overactive thyroid.",
+    "medication": "Requires doctor diagnosis.",
+    "care": "Avoid excessive caffeine."
+  },
+  {
+    "name": "Diabetes Symptoms (General)",
+    "keywords": ["excess urination", "excess thirst", "tired"],
+    "description": "High blood sugar signs.",
+    "medication": "Doctor evaluation.",
+    "care": "Controlled diet, exercise."
+  },
+  {
+    "name": "Hypertension (High BP Symptoms)",
+    "keywords": ["headache", "pressure head", "blurred vision"],
+    "description": "High blood pressure signs.",
+    "medication": "BP medicines only under medical supervision.",
+    "care": "Reduce salt."
+  },
+  {
+    "name": "Depression (General Warning Signs)",
+    "keywords": ["sadness", "loss of interest", "sleep changes"],
+    "description": "A mental health condition affecting mood.",
+    "medication": "Needs professional help.",
+    "care": "Talk to a trusted person."
+  },
+  {
+    "name": "Anxiety",
+    "keywords": ["nervousness", "restlessness", "rapid heartbeat"],
+    "description": "Persistent worry or fear.",
+    "medication": "Doctor consultation recommended.",
+    "care": "Deep breathing, relaxation."
+  },
+  {
+    "name": "Panic Attack",
+    "keywords": ["chest tightness", "fast heartbeat", "fear"],
+    "description": "Sudden overwhelming anxiety.",
+    "medication": "Seek medical evaluation.",
+    "care": "Slow breathing techniques."
+  },
+  {
+    "name": "Insomnia",
+    "keywords": ["difficulty sleeping", "waking up often"],
+    "description": "Trouble falling or staying asleep.",
+    "medication": "Avoid self-use sleep pills.",
+    "care": "Sleep routine, limit screen time."
+  },
+  {
+    "name": "Sprain",
+    "keywords": ["twisted ankle", "joint swelling", "sprain"],
+    "description": "Ligament injury causing swelling and pain.",
+    "medication": "Pain relievers if needed.",
+    "care": "Rest, Ice, Compression, Elevation."
+  },
+  {
+    "name": "Muscle Strain",
+    "keywords": ["muscle pull", "muscle pain", "strain"],
+    "description": "Overuse of muscle causing pain.",
+    "medication": "Pain gel if needed.",
+    "care": "Rest and gentle stretching."
+  },
+  {
+    "name": "Back Pain",
+    "keywords": ["lower back pain", "backache", "waist pain"],
+    "description": "Pain due to posture or lifting.",
+    "medication": "Pain relievers only if advised.",
+    "care": "Posture correction."
+  },
+  {
+    "name": "Neck Pain",
+    "keywords": ["stiff neck", "neck pain", "strain"],
+    "description": "Neck muscle strain.",
+    "medication": "Heat or cold packs.",
+    "care": "Avoid long screen time."
+  },
+  {
+    "name": "Arthritis (Early Symptoms)",
+    "keywords": ["joint pain", "morning stiffness"],
+    "description": "Inflammation of joints.",
+    "medication": "Doctor-prescribed anti-inflammatory medicines.",
+    "care": "Gentle exercise."
+  },
+  {
+    "name": "Skin Allergy",
+    "keywords": ["rash", "itching", "red bumps"],
+    "description": "Skin reaction due to allergens.",
+    "medication": "Antihistamines if advised.",
+    "care": "Avoid known irritants."
+  },
+  {
+    "name": "Eczema",
+    "keywords": ["dry patches", "itchy skin", "eczema"],
+    "description": "Chronic skin condition.",
+    "medication": "Moisturizers, mild steroid creams.",
+    "care": "Avoid harsh soaps."
+  },
+  {
+    "name": "Psoriasis (Mild Signs)",
+    "keywords": ["scaly patches", "red skin"],
+    "description": "Chronic autoimmune skin condition.",
+    "medication": "Needs dermatologist guidance.",
+    "care": "Moisturize skin."
+  },
+  {
+    "name": "Ringworm (Fungal Infection)",
+    "keywords": ["ring rash", "itchy patch", "fungal"],
+    "description": "Fungal skin infection.",
+    "medication": "Antifungal creams.",
+    "care": "Keep area dry."
+  },
+  {
+    "name": "Dandruff",
+    "keywords": ["flakes", "itchy scalp"],
+    "description": "Scalp shedding causing flakes.",
+    "medication": "Anti-dandruff shampoos.",
+    "care": "Wash hair regularly."
+  },
+  {
+    "name": "Acne",
+    "keywords": ["pimples", "acne", "breakouts"],
+    "description": "Clogged skin pores causing pimples.",
+    "medication": "Topical creams.",
+    "care": "Wash face gently."
+  },
+  {
+    "name": "Conjunctivitis",
+    "keywords": ["red eye", "itchy eye", "watery eye"],
+    "description": "Inflamed eye membrane.",
+    "medication": "Prescription drops only.",
+    "care": "Avoid touching eyes."
+  },
+  {
+    "name": "Stye",
+    "keywords": ["eyelid swelling", "painful lump"],
+    "description": "Infection of eyelid gland.",
+    "medication": "Antibiotic ointment if needed.",
+    "care": "Warm compress."
+  },
+  {
+    "name": "Otitis Media (Ear Infection)",
+    "keywords": ["ear pain", "ear pressure", "blocked ear"],
+    "description": "Middle ear infection.",
+    "medication": "Needs doctor evaluation.",
+    "care": "Warm compress on ear."
+  },
+  {
+    "name": "Tonsillitis",
+    "keywords": ["sore throat", "difficulty swallowing", "fever"],
+    "description": "Inflamed tonsils due to infection.",
+    "medication": "Antibiotics only if bacterial.",
+    "care": "Warm fluids."
+  },
+  {
+    "name": "Laryngitis",
+    "keywords": ["voice loss", "hoarseness"],
+    "description": "Inflammation of voice box.",
+    "medication": "Voice rest is key.",
+    "care": "Avoid shouting."
+  },
+  {
+    "name": "Motion Sickness",
+    "keywords": ["nausea", "vomiting during travel"],
+    "description": "Triggered while traveling.",
+    "medication": "Anti-motion sickness pills if advised.",
+    "care": "Look out of window, fresh air."
+  },
+  {
+    "name": "Mouth Ulcers",
+    "keywords": ["mouth sore", "ulcer", "pain in mouth"],
+    "description": "Small painful sores in mouth.",
+    "medication": "Oral gels.",
+    "care": "Avoid spicy foods."
+  },
+  {
+    "name": "Tooth Sensitivity",
+    "keywords": ["pain cold food", "pain hot food"],
+    "description": "Sensitivity of teeth.",
+    "medication": "Desensitizing toothpaste.",
+    "care": "Avoid acidic drinks."
+  },
+  {
+    "name": "Gingivitis",
+    "keywords": ["bleeding gums", "gum swelling"],
+    "description": "Inflamed gums.",
+    "medication": "Dental cleaning.",
+    "care": "Brush twice daily."
+  },
+  {
+    "name": "Chickenpox (Early Signs)",
+    "keywords": ["red spots", "itchy rash", "mild fever"],
+    "description": "Viral infection causing rash and fever.",
+    "medication": "Soothing lotions.",
+    "care": "Avoid scratching."
+  },
+  {
+    "name": "Measles (Early Signs)",
+    "keywords": ["rash", "fever", "runny nose"],
+    "description": "Contagious viral disease.",
+    "medication": "Supportive care only.",
+    "care": "Isolation recommended."
+  }
+]
