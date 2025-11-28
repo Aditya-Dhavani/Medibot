@@ -612,6 +612,29 @@ body.light-mode .theme-toggle {
   .user-info {
     text-align: left;
   }
+
+  /* Fix header layout on mobile */
+.header {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.header-logo {
+  margin-bottom: 6px;
+}
+
+.header-right {
+  text-align: center;
+  max-width: 90%;
+}
+
+.header-right p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -638,4 +661,15 @@ body.light-mode .theme-toggle {
   #symptoms {
     min-height: 100px;
   }
+
+  /* Extra small mobile layout improvement */
+.header-right p {
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.header-right {
+  max-width: 95%;
+}
+
 }
