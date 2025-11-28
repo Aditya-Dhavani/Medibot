@@ -8,17 +8,17 @@ https://medibot-muz7.onrender.com
 
 ⚡ Features
 
-🔐 User signup & login (email, username, password)
+->🔐 User signup & login (email, username, password)
 
-🔑 Secure password hashing
+->🔑 Secure password hashing
 
-🩺 Symptom checker with 50+ common diseases
+->🩺 Symptom checker with 50+ common diseases
 
-🌙 Dark / Light mode toggle
+->🌙 Dark / Light mode toggle
 
-📱 Mobile-friendly responsive layout
+->📱 Mobile-friendly responsive layout
 
-☁️ Cloud deployed (backend + frontend)
+->☁️ Cloud deployed (backend + frontend)
 
 🛠 Tech Stack
 
@@ -51,4 +51,4 @@ User symptom history
 
 👤 Developer
 
-Aditya Dhavani
+Aditya Dhavani.
